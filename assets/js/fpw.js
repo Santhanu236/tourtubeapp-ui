@@ -8,10 +8,10 @@ function sendEmail() {
     let email = document.getElementById('email').value;
     Email.send({
       Host: "smtp.gmail.com",
-      Username: "tourtubeinc@gmail.com",
-      Password: "62d6886a-4195-4a55-b53f-9d5250588abd",
+      Username: "",
+      Password: "",
       To: email,
-      From: "tourtubeinc@gmail.com",
+      From: "",
       Subject: "This is your 6 digit code for password reset",
       Body: code,
     })
